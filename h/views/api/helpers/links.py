@@ -61,7 +61,7 @@ def format_nested_links(api_links, templater):
     for link in api_links:
         method_info = {
             "method": link.primary_method(),
-            "url": templater.route_template(link.route_name)
+            "url": templater.route_template(link.route_name),
             "desc": link.description,
         }
         _set_at_path(formatted_links, link.name.split("."), method_info)
