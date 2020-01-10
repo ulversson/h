@@ -67,6 +67,6 @@ INTALL
 
 1. PyEnv
 2. make clean
-3. make docker
+3. make docker (docker build --no-cache ./) 
 4. make run-docker & 
-
+Dockerfile and Makefile
