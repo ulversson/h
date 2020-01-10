@@ -61,3 +61,12 @@ components are included. They are subject to their own licenses. All of the
 license information can be found in the included `<LICENSE>`_ file.
 
 .. _2-Clause BSD License: http://www.opensource.org/licenses/BSD-2-Clause
+
+
+INTALL
+
+1. PyEnv
+2. make clean
+3. make docker
+4. make run-docker & 
+
